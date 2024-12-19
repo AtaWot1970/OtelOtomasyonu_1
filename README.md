@@ -56,8 +56,8 @@ Adımlar
 
 1. Bu projeyi klonlayın:
 
-git clone https://github.com/kullanıcı-adı/serenity-suites.git
-cd serenity-suites
+git clone https://github.com/AtaWot1970/OtelOtomasyonu_1.git
+cd OtelOtomasyonu_1
 
 
 2. Visual Studio'da projeyi açın:
@@ -115,9 +115,9 @@ Bu proje, MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE do
 
 📞 İletişim
 
-Geliştirici: Adınız Soyadınız
+Geliştirici: Mehmet Berkay KEKEÇ
 
-E-posta: serenity.support@example.com
+E-posta: 23BILP0126@isik.edu.tr
 
 GitHub: Serenity Suites
 
