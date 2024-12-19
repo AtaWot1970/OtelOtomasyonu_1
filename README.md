@@ -103,7 +103,7 @@ Visual Studio'da F5 tuşuna basarak projeyi çalıştırın.
 
 📝 Lisans
 
-Bu proje, MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına göz atabilirsiniz.
+Bu proje, Apache Lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına göz atabilirsiniz.
 
 
 ---
