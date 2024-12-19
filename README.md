@@ -12,13 +12,7 @@ Rezervasyon Yönetimi: Müşteri rezervasyonlarını görüntüleme, düzenleme 
 
 Oda Yönetimi: Oda durumlarını (boş, dolu, temizleme, bakımda) kolayca takip etme.
 
-Faturalandırma: Konaklama ücretlerinin hesaplanması ve fatura kesimi.
-
 Personel Yönetimi: Personel bilgileri ve görev takibi.
-
-Raporlama: Gelir, doluluk oranı ve diğer operasyonel veriler için kapsamlı raporlar.
-
-Müşteri İletişimi: SMS ve e-posta entegrasyonuyla müşterilere bilgi gönderme.
 
 Çoklu Dil Desteği: Uluslararası oteller için çoklu dil desteği.
 
