@@ -1,3 +1,4 @@
+![Screenshot_2024-12-20-01-28-50-557-edit_com whatsapp](https://github.com/user-attachments/assets/371b440f-48ac-40d7-8915-1a15870824a9)
 Serenity Suites Otel Otomasyonu
 
 Bu proje, otel işletmelerine yönelik kapsamlı bir otel otomasyon sistemi olan Serenity Suites'in geliştirilmesini kapsamaktadır. Serenity Suites, modern bir otel yönetim sistemiyle, operasyonel süreçlerinizi kolaylaştırmayı ve müşteri memnuniyetini artırmayı hedefler.
