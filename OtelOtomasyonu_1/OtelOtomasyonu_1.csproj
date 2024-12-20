@@ -52,8 +52,65 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKayit.Designer.cs">
+      <DependentUpon>frmKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMusteriGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMusteriGiris.Designer.cs">
+      <DependentUpon>frmMusteriGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmYetkiEkleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmYetkiEkleme.Designer.cs">
+      <DependentUpon>frmYetkiEkleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmYetkili2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmYetkili2.Designer.cs">
+      <DependentUpon>frmYetkili2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmYetkiliGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmYetkiliGiris.Designer.cs">
+      <DependentUpon>frmYetkiliGiris.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKayit.resx">
+      <DependentUpon>frmKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMusteriGiris.resx">
+      <DependentUpon>frmMusteriGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmYetkiEkleme.resx">
+      <DependentUpon>frmYetkiEkleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmYetkili2.resx">
+      <DependentUpon>frmYetkili2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmYetkiliGiris.resx">
+      <DependentUpon>frmYetkiliGiris.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +119,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +133,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Serenity Suite logo in the shape of a crescent moon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SS_KingVilla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EşsizDenizManzaralıGrandSuite.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeluxeOdaOrmanManzaralı.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TemalıDeluxeAileOdasıOrmanManzaralı.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SERENITY SUITES.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

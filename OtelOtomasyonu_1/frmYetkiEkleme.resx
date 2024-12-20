@@ -117,23 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="EşsizDenizManzaralıGrandSuite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EşsizDenizManzaralıGrandSuite.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SS_KingVilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SS_KingVilla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Serenity Suite logo in the shape of a crescent moon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Serenity Suite logo in the shape of a crescent moon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TemalıDeluxeAileOdasıOrmanManzaralı" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TemalıDeluxeAileOdasıOrmanManzaralı.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DeluxeOdaOrmanManzaralı" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DeluxeOdaOrmanManzaralı.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SERENITY SUITES" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SERENITY SUITES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

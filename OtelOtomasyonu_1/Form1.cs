@@ -16,5 +16,22 @@ namespace OtelOtomasyonu_1
         {
             InitializeComponent();
         }
+
+        private void btnCıkıs_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            panel2.Width += 3;
+            if (panel2.Width >= 599)
+            {
+                timer1.Stop();
+                Form2 frm = new Form2();
+                frm.Show();
+                this.Hide();
+            }
+        }
     }
 }
