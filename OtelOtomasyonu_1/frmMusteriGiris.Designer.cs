@@ -128,17 +128,17 @@
             // btnOda1
             // 
             this.btnOda1.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnOda1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnOda1.FlatAppearance.BorderSize = 0;
             this.btnOda1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOda1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnOda1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnOda1.Location = new System.Drawing.Point(3, 506);
+            this.btnOda1.Location = new System.Drawing.Point(0, 508);
             this.btnOda1.Name = "btnOda1";
             this.btnOda1.Size = new System.Drawing.Size(558, 103);
             this.btnOda1.TabIndex = 0;
             this.btnOda1.Text = "TARİH SEÇ";
             this.btnOda1.UseVisualStyleBackColor = false;
+            this.btnOda1.Click += new System.EventHandler(this.btnOda1_Click_1);
             // 
             // groupBox2
             // 
@@ -154,7 +154,6 @@
             // btnOda2
             // 
             this.btnOda2.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnOda2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnOda2.FlatAppearance.BorderSize = 0;
             this.btnOda2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOda2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -165,6 +164,7 @@
             this.btnOda2.TabIndex = 0;
             this.btnOda2.Text = "TARİH SEÇ";
             this.btnOda2.UseVisualStyleBackColor = false;
+            this.btnOda2.Click += new System.EventHandler(this.btnOda2_Click_1);
             // 
             // groupBox3
             // 
@@ -211,6 +211,7 @@
             this.btnOda3.TabIndex = 0;
             this.btnOda3.Text = "TARİH SEÇ";
             this.btnOda3.UseVisualStyleBackColor = false;
+            this.btnOda3.Click += new System.EventHandler(this.btnOda3_Click_1);
             // 
             // groupBox4
             // 
@@ -226,7 +227,6 @@
             // btnOda4
             // 
             this.btnOda4.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnOda4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnOda4.FlatAppearance.BorderSize = 0;
             this.btnOda4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOda4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -237,6 +237,7 @@
             this.btnOda4.TabIndex = 0;
             this.btnOda4.Text = "TARİH SEÇ";
             this.btnOda4.UseVisualStyleBackColor = false;
+            this.btnOda4.Click += new System.EventHandler(this.btnOda4_Click_1);
             // 
             // panel1
             // 

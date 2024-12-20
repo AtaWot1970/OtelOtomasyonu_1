@@ -170,6 +170,14 @@ namespace OtelOtomasyonu_1
             }
         }
 
-        
+        private void rbErkek_CheckedChanged(object sender, EventArgs e)
+        {
+            lblCinsiyetKontrol.Text = "ERKEK";
+        }
+
+        private void rbKadin_CheckedChanged(object sender, EventArgs e)
+        {
+            lblCinsiyetKontrol.Text = "KADIN";
+        }
     }
 }

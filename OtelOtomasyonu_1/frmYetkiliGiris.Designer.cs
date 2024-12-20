@@ -135,7 +135,7 @@
             this.btnKaydet.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnKaydet.Location = new System.Drawing.Point(75, 314);
             this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Size = new System.Drawing.Size(216, 78);
+            this.btnKaydet.Size = new System.Drawing.Size(216, 124);
             this.btnKaydet.TabIndex = 9;
             this.btnKaydet.Text = "YETKİLİ OLUŞTUR";
             this.btnKaydet.UseVisualStyleBackColor = false;
@@ -147,9 +147,9 @@
             this.btnGiris.FlatAppearance.BorderSize = 0;
             this.btnGiris.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGiris.Location = new System.Drawing.Point(411, 314);
+            this.btnGiris.Location = new System.Drawing.Point(468, 314);
             this.btnGiris.Name = "btnGiris";
-            this.btnGiris.Size = new System.Drawing.Size(317, 78);
+            this.btnGiris.Size = new System.Drawing.Size(317, 124);
             this.btnGiris.TabIndex = 10;
             this.btnGiris.Text = "GİRİŞ";
             this.btnGiris.UseVisualStyleBackColor = false;
@@ -166,7 +166,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(633, 170);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(809, 420);
+            this.panel1.Size = new System.Drawing.Size(809, 527);
             this.panel1.TabIndex = 11;
             // 
             // label3
@@ -174,7 +174,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Stencil", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(278, 533);
+            this.label3.Location = new System.Drawing.Point(237, 535);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(105, 29);
             this.label3.TabIndex = 12;
@@ -183,10 +183,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::OtelOtomasyonu_1.Properties.Resources.SERENITY_SUITES;
-            this.pictureBox1.Location = new System.Drawing.Point(80, 136);
+            this.pictureBox1.Location = new System.Drawing.Point(42, 136);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(504, 472);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 

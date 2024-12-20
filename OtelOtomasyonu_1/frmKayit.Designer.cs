@@ -82,6 +82,9 @@
             this.label15 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.panel14 = new System.Windows.Forms.Panel();
             this.pnlUst.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -112,7 +115,7 @@
             this.pnlUst.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlUst.Location = new System.Drawing.Point(0, 0);
             this.pnlUst.Name = "pnlUst";
-            this.pnlUst.Size = new System.Drawing.Size(1862, 50);
+            this.pnlUst.Size = new System.Drawing.Size(2576, 50);
             this.pnlUst.TabIndex = 3;
             // 
             // label1
@@ -150,7 +153,7 @@
             this.btnCıkıs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCıkıs.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnCıkıs.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCıkıs.Location = new System.Drawing.Point(1796, 0);
+            this.btnCıkıs.Location = new System.Drawing.Point(2510, 0);
             this.btnCıkıs.Name = "btnCıkıs";
             this.btnCıkıs.Size = new System.Drawing.Size(66, 50);
             this.btnCıkıs.TabIndex = 1;
@@ -216,7 +219,7 @@
             // 
             this.groupBox2.Controls.Add(this.txtSoyad);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox2.Location = new System.Drawing.Point(681, 159);
+            this.groupBox2.Location = new System.Drawing.Point(72, 372);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(471, 127);
             this.groupBox2.TabIndex = 7;
@@ -240,7 +243,7 @@
             // 
             this.groupBox3.Controls.Add(this.txtMail);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox3.Location = new System.Drawing.Point(1283, 159);
+            this.groupBox3.Location = new System.Drawing.Point(1575, 150);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(471, 127);
             this.groupBox3.TabIndex = 8;
@@ -263,7 +266,7 @@
             // 
             this.groupBox4.Controls.Add(this.txtTcNo);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox4.Location = new System.Drawing.Point(485, 356);
+            this.groupBox4.Location = new System.Drawing.Point(718, 377);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(289, 124);
             this.groupBox4.TabIndex = 9;
@@ -289,7 +292,7 @@
             // 
             this.groupBox5.Controls.Add(this.txtAdres);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox5.Location = new System.Drawing.Point(827, 345);
+            this.groupBox5.Location = new System.Drawing.Point(1143, 366);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(900, 132);
             this.groupBox5.TabIndex = 10;
@@ -302,17 +305,17 @@
             this.txtAdres.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtAdres.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtAdres.ForeColor = System.Drawing.Color.Transparent;
-            this.txtAdres.Location = new System.Drawing.Point(3, 51);
+            this.txtAdres.Location = new System.Drawing.Point(3, 48);
             this.txtAdres.Multiline = true;
             this.txtAdres.Name = "txtAdres";
-            this.txtAdres.Size = new System.Drawing.Size(894, 78);
+            this.txtAdres.Size = new System.Drawing.Size(894, 81);
             this.txtAdres.TabIndex = 0;
             // 
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.txtDogumTarihi);
             this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox6.Location = new System.Drawing.Point(66, 547);
+            this.groupBox6.Location = new System.Drawing.Point(69, 784);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(345, 127);
             this.groupBox6.TabIndex = 11;
@@ -337,7 +340,7 @@
             // 
             this.groupBox7.Controls.Add(this.comboBox1);
             this.groupBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox7.Location = new System.Drawing.Point(467, 590);
+            this.groupBox7.Location = new System.Drawing.Point(1143, 605);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(847, 81);
             this.groupBox7.TabIndex = 12;
@@ -365,7 +368,7 @@
             this.groupBox8.Controls.Add(this.rbErkek);
             this.groupBox8.Controls.Add(this.rbKadin);
             this.groupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox8.Location = new System.Drawing.Point(1347, 547);
+            this.groupBox8.Location = new System.Drawing.Point(718, 115);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(407, 127);
             this.groupBox8.TabIndex = 13;
@@ -376,6 +379,7 @@
             // 
             this.rbErkek.AutoSize = true;
             this.rbErkek.Checked = true;
+            this.rbErkek.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.rbErkek.Location = new System.Drawing.Point(49, 79);
             this.rbErkek.Name = "rbErkek";
             this.rbErkek.Size = new System.Drawing.Size(130, 33);
@@ -383,23 +387,26 @@
             this.rbErkek.TabStop = true;
             this.rbErkek.Text = "ERKEK";
             this.rbErkek.UseVisualStyleBackColor = true;
+            this.rbErkek.CheckedChanged += new System.EventHandler(this.rbErkek_CheckedChanged);
             // 
             // rbKadin
             // 
             this.rbKadin.AutoSize = true;
+            this.rbKadin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.rbKadin.Location = new System.Drawing.Point(259, 79);
             this.rbKadin.Name = "rbKadin";
             this.rbKadin.Size = new System.Drawing.Size(121, 33);
             this.rbKadin.TabIndex = 0;
             this.rbKadin.Text = "KADIN";
             this.rbKadin.UseVisualStyleBackColor = true;
+            this.rbKadin.CheckedChanged += new System.EventHandler(this.rbKadin_CheckedChanged);
             // 
             // lblCinsiyetKontrol
             // 
             this.lblCinsiyetKontrol.AutoSize = true;
             this.lblCinsiyetKontrol.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblCinsiyetKontrol.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblCinsiyetKontrol.Location = new System.Drawing.Point(1506, 709);
+            this.lblCinsiyetKontrol.Location = new System.Drawing.Point(877, 277);
             this.lblCinsiyetKontrol.Name = "lblCinsiyetKontrol";
             this.lblCinsiyetKontrol.Size = new System.Drawing.Size(99, 29);
             this.lblCinsiyetKontrol.TabIndex = 14;
@@ -408,10 +415,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(57, 49);
+            this.label2.Location = new System.Drawing.Point(35, 46);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 25);
+            this.label2.Size = new System.Drawing.Size(63, 31);
             this.label2.TabIndex = 1;
             this.label2.Text = "+90";
             // 
@@ -420,7 +428,7 @@
             this.lblSelectedRoom.AutoSize = true;
             this.lblSelectedRoom.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblSelectedRoom.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblSelectedRoom.Location = new System.Drawing.Point(485, 742);
+            this.lblSelectedRoom.Location = new System.Drawing.Point(1161, 757);
             this.lblSelectedRoom.Name = "lblSelectedRoom";
             this.lblSelectedRoom.Size = new System.Drawing.Size(24, 29);
             this.lblSelectedRoom.TabIndex = 17;
@@ -430,7 +438,7 @@
             // 
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(681, 135);
+            this.panel1.Location = new System.Drawing.Point(72, 348);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(471, 87);
             this.panel1.TabIndex = 18;
@@ -460,7 +468,7 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(1283, 124);
+            this.panel2.Location = new System.Drawing.Point(1575, 115);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(471, 98);
             this.panel2.TabIndex = 19;
@@ -511,7 +519,7 @@
             // 
             this.panel5.Controls.Add(this.label14);
             this.panel5.Controls.Add(this.label9);
-            this.panel5.Location = new System.Drawing.Point(485, 327);
+            this.panel5.Location = new System.Drawing.Point(718, 348);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(289, 92);
             this.panel5.TabIndex = 22;
@@ -541,7 +549,7 @@
             // panel6
             // 
             this.panel6.Controls.Add(this.label10);
-            this.panel6.Location = new System.Drawing.Point(827, 327);
+            this.panel6.Location = new System.Drawing.Point(1143, 348);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(900, 67);
             this.panel6.TabIndex = 23;
@@ -560,7 +568,7 @@
             // panel7
             // 
             this.panel7.Controls.Add(this.label11);
-            this.panel7.Location = new System.Drawing.Point(66, 545);
+            this.panel7.Location = new System.Drawing.Point(69, 782);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(345, 68);
             this.panel7.TabIndex = 24;
@@ -579,7 +587,7 @@
             // panel8
             // 
             this.panel8.Controls.Add(this.label12);
-            this.panel8.Location = new System.Drawing.Point(467, 569);
+            this.panel8.Location = new System.Drawing.Point(1143, 584);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(847, 59);
             this.panel8.TabIndex = 25;
@@ -598,7 +606,7 @@
             // panel9
             // 
             this.panel9.Controls.Add(this.label13);
-            this.panel9.Location = new System.Drawing.Point(1347, 551);
+            this.panel9.Location = new System.Drawing.Point(718, 119);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(471, 62);
             this.panel9.TabIndex = 26;
@@ -608,7 +616,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label13.Location = new System.Drawing.Point(3, 12);
+            this.label13.Location = new System.Drawing.Point(6, 18);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(296, 33);
             this.label13.TabIndex = 0;
@@ -618,7 +626,8 @@
             // 
             this.groupBox9.Controls.Add(this.mtxtTelNo);
             this.groupBox9.Controls.Add(this.label2);
-            this.groupBox9.Location = new System.Drawing.Point(66, 374);
+            this.groupBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupBox9.Location = new System.Drawing.Point(66, 603);
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.Size = new System.Drawing.Size(342, 100);
             this.groupBox9.TabIndex = 28;
@@ -629,21 +638,22 @@
             // 
             this.mtxtTelNo.BackColor = System.Drawing.SystemColors.GrayText;
             this.mtxtTelNo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.mtxtTelNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.mtxtTelNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.mtxtTelNo.ForeColor = System.Drawing.SystemColors.Window;
-            this.mtxtTelNo.Location = new System.Drawing.Point(120, 46);
+            this.mtxtTelNo.Location = new System.Drawing.Point(104, 46);
             this.mtxtTelNo.Mask = "(999) 000-00-00";
             this.mtxtTelNo.Name = "mtxtTelNo";
-            this.mtxtTelNo.Size = new System.Drawing.Size(207, 28);
+            this.mtxtTelNo.Size = new System.Drawing.Size(207, 37);
             this.mtxtTelNo.TabIndex = 0;
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.panel14);
             this.panel4.Controls.Add(this.panel13);
             this.panel4.Controls.Add(this.panel12);
             this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.label15);
-            this.panel4.Location = new System.Drawing.Point(66, 346);
+            this.panel4.Location = new System.Drawing.Point(66, 575);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(345, 68);
             this.panel4.TabIndex = 29;
@@ -686,24 +696,55 @@
             // 
             // panel10
             // 
-            this.panel10.Location = new System.Drawing.Point(66, 463);
+            this.panel10.Location = new System.Drawing.Point(66, 692);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(342, 29);
             this.panel10.TabIndex = 30;
             // 
             // panel11
             // 
-            this.panel11.Location = new System.Drawing.Point(66, 399);
+            this.panel11.Location = new System.Drawing.Point(66, 628);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(12, 71);
             this.panel11.TabIndex = 31;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label16.Location = new System.Drawing.Point(438, 831);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(625, 31);
+            this.label16.TabIndex = 32;
+            this.label16.Text = "AY GÜN YIL ARASINDA NOKTA KOYMALIDIR";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label17.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label17.Location = new System.Drawing.Point(435, 881);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(776, 31);
+            this.label17.TabIndex = 33;
+            this.label17.Text = "YOKSA AKSİ TAKDİRDE OTEL ALIM YAPILMAYACAKTIR";
+            // 
+            // panel14
+            // 
+            this.panel14.Location = new System.Drawing.Point(330, 38);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(15, 88);
+            this.panel14.TabIndex = 34;
             // 
             // frmKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(79)))), ((int)(((byte)(79)))));
-            this.ClientSize = new System.Drawing.Size(1862, 1298);
+            this.ClientSize = new System.Drawing.Size(2576, 1263);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.panel11);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.panel4);
@@ -831,5 +872,8 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Panel panel14;
     }
 }

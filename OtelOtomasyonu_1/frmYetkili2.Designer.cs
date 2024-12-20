@@ -51,7 +51,7 @@
             this.pnlUst.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlUst.Location = new System.Drawing.Point(0, 0);
             this.pnlUst.Name = "pnlUst";
-            this.pnlUst.Size = new System.Drawing.Size(1486, 50);
+            this.pnlUst.Size = new System.Drawing.Size(2001, 50);
             this.pnlUst.TabIndex = 4;
             // 
             // btnGeriDon
@@ -78,7 +78,7 @@
             this.btnCıkıs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCıkıs.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnCıkıs.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCıkıs.Location = new System.Drawing.Point(1420, 0);
+            this.btnCıkıs.Location = new System.Drawing.Point(1935, 0);
             this.btnCıkıs.Name = "btnCıkıs";
             this.btnCıkıs.Size = new System.Drawing.Size(66, 50);
             this.btnCıkıs.TabIndex = 1;
@@ -91,7 +91,7 @@
             this.lblYetkiliAd.AutoSize = true;
             this.lblYetkiliAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblYetkiliAd.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblYetkiliAd.Location = new System.Drawing.Point(696, 13);
+            this.lblYetkiliAd.Location = new System.Drawing.Point(952, 13);
             this.lblYetkiliAd.Name = "lblYetkiliAd";
             this.lblYetkiliAd.Size = new System.Drawing.Size(85, 29);
             this.lblYetkiliAd.TabIndex = 3;
@@ -100,18 +100,18 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(25, 72);
+            this.dataGridView1.Location = new System.Drawing.Point(72, 72);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
             this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(1440, 390);
+            this.dataGridView1.Size = new System.Drawing.Size(1866, 612);
             this.dataGridView1.TabIndex = 5;
             // 
             // comboBox1
             // 
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(232, 574);
+            this.comboBox1.Location = new System.Drawing.Point(500, 768);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(344, 39);
             this.comboBox1.TabIndex = 6;
@@ -120,7 +120,7 @@
             // 
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(890, 585);
+            this.comboBox2.Location = new System.Drawing.Point(1174, 768);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(323, 39);
             this.comboBox2.TabIndex = 7;
@@ -130,7 +130,7 @@
             this.rbArtan.AutoSize = true;
             this.rbArtan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbArtan.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.rbArtan.Location = new System.Drawing.Point(505, 716);
+            this.rbArtan.Location = new System.Drawing.Point(701, 946);
             this.rbArtan.Name = "rbArtan";
             this.rbArtan.Size = new System.Drawing.Size(143, 35);
             this.rbArtan.TabIndex = 8;
@@ -143,7 +143,7 @@
             this.rbAzalan.AutoSize = true;
             this.rbAzalan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rbAzalan.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.rbAzalan.Location = new System.Drawing.Point(890, 716);
+            this.rbAzalan.Location = new System.Drawing.Point(1174, 946);
             this.rbAzalan.Name = "rbAzalan";
             this.rbAzalan.Size = new System.Drawing.Size(157, 35);
             this.rbAzalan.TabIndex = 9;
@@ -156,7 +156,7 @@
             this.btnKaydet.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnKaydet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKaydet.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnKaydet.Location = new System.Drawing.Point(586, 837);
+            this.btnKaydet.Location = new System.Drawing.Point(854, 1135);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(298, 86);
             this.btnKaydet.TabIndex = 10;
@@ -169,7 +169,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(79)))), ((int)(((byte)(79)))));
-            this.ClientSize = new System.Drawing.Size(1486, 948);
+            this.ClientSize = new System.Drawing.Size(2001, 1326);
             this.Controls.Add(this.btnKaydet);
             this.Controls.Add(this.rbAzalan);
             this.Controls.Add(this.rbArtan);
@@ -180,7 +180,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmYetkili2";
             this.Text = "frmYetkili2";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.pnlUst.ResumeLayout(false);
             this.pnlUst.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

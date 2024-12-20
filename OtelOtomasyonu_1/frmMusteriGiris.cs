@@ -31,22 +31,22 @@ namespace OtelOtomasyonu_1
 
         private void btnOda1_Click(object sender, EventArgs e)
         {
-            OpenCustomerDetailsForm("SS KİNG VİLLA");
+            //OpenCustomerDetailsForm("SS KİNG VİLLA");
         }
 
         private void btnOda2_Click(object sender, EventArgs e)
         {
-            OpenCustomerDetailsForm("EŞSİZ DENİZ MANZARASI GRAND SUİTE");
+            //OpenCustomerDetailsForm("EŞSİZ DENİZ MANZARASI GRAND SUİTE");
         }
 
         private void btnOda3_Click(object sender, EventArgs e)
         {
-            OpenCustomerDetailsForm("DELUXE ODA ORMAN MANZARALI");
+            //OpenCustomerDetailsForm("DELUXE ODA ORMAN MANZARALI");
         }
 
         private void btnOda4_Click(object sender, EventArgs e)
         {
-            OpenCustomerDetailsForm("TEMALI DELUXE AİLE ODASI ORMAN MANZARALI");
+            //OpenCustomerDetailsForm("TEMALI DELUXE AİLE ODASI ORMAN MANZARALI");
         }
 
 
@@ -56,6 +56,26 @@ namespace OtelOtomasyonu_1
             detailsForm.FormClosed += (s, args) => this.Show(); // Ana formu tekrar göster
             this.Hide(); // Ana formu gizle
             detailsForm.Show();
+        }
+
+        private void btnOda4_Click_1(object sender, EventArgs e)
+        {
+            OpenCustomerDetailsForm("TEMALI DELUXE AİLE ODASI ORMAN MANZARALI");
+        }
+
+        private void btnOda1_Click_1(object sender, EventArgs e)
+        {
+            OpenCustomerDetailsForm("SS KİNG VİLLA");
+        }
+
+        private void btnOda2_Click_1(object sender, EventArgs e)
+        {
+            OpenCustomerDetailsForm("EŞSİZ DENİZ MANZARASI GRAND SUİTE");
+        }
+
+        private void btnOda3_Click_1(object sender, EventArgs e)
+        {
+            OpenCustomerDetailsForm("DELUXE ODA ORMAN MANZARALI");
         }
     }
 }
